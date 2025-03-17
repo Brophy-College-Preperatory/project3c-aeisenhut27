@@ -3,10 +3,10 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 
 # Target executable
-TARGET = change
+TARGET = voting
 
 # Source file
-SRCS = change.c
+SRCS = voting.c
 
 # Object file
 OBJS = $(SRCS:.c=.o)
